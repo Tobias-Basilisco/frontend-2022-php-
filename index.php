@@ -10,10 +10,28 @@
     ciao mondo
 
     <?php
-        echo "ciao mondo"
-        echo "ciao mondo"
+        //assegno un valore alla variabile    
+        $testo ="hola mundo";
+        $num1 = 1;
+        $num2 = 2;
 
+        //stampo il contenuto della variabile
+        echo $testo;
+        echo $num1+$num2;
 
     ?>
+    
+    <!-- for -->
+
+    <?php
+        $n1 = 1;
+        $n2 = 2;
+    
+        for ($i=0; $i<10; $i=$i+1){
+                echo $i*$num2;
+                echo " ciao mondo <br>";
+        }
+    ?>
+
 </body>
 </html>
