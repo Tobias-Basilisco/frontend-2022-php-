@@ -31,9 +31,13 @@
         
     }
     function ripeti($quantita, $stringa){
+        $risultato = '';
         
         for ($i=0; $i<$quantita; $i++){
-        echo $stringa."<br>";
+        // echo "<p>".$stringa."</p><br>\n";
+        $risultato = $risultato . "<p>".$stringa."</p><br>\n";
         }
+
+        return $risultato;
     }
 ?>

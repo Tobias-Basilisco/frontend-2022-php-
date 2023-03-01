@@ -17,10 +17,13 @@
 
 
     <!-- <?php
-        ripeti(5,"hola mundo")
+        echo "<p>".ripeti(5,"hola mundo")."</p>"
     ?> -->
 
 
+    <?php
+        
+    ?>
 
 </body>
 </html>
