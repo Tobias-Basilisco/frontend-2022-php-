@@ -1,3 +1,11 @@
+<?php
+
+include("library.php");
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,5 +41,28 @@
         }
     ?>
 
+        <?php
+            //asegno un valore alla variabile
+            $valore = -5;
+            echo "il valore assoluto di".$valore;
+            //stampo il risultato
+            $valore = valore_assoluto($valore);
+            echo "è".$valore."<br>";
+
+            //asegno un valore alla variabile
+            $nuovo_valore = 7;
+            echo "il valore assoluto di".$nuovo_valore;
+             //stampo il risultato
+             $valore = valore_assoluto($nuovo_valore);
+             echo "è".$valore."<br>";
+
+
+
+        ?>
 </body>
 </html>
+
+<?php
+    
+
+?>
