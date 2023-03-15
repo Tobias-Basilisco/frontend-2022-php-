@@ -40,4 +40,38 @@
 
         return $risultato;
     }
+    function create_alt_div($text, $divs, $class1, $class2)
+{
+    for ($i = 1; $i <= $divs; $i++) {
+        if ($i % 2 == 0) {
+            print_div($class2, $text);
+        } else {
+            print_div($class1, $text);
+        }
+    }
+}
+
+function print_array($values) {
+    $array_count = count($values);
+    for ($i = 0; $i < $array_count; $i++) {
+        echo "<div>";
+        echo $values[$i];
+        echo "</div>";
+    }
+}
+
+function print_double_array($first, $second) {
+    if (count($first) != count($second)) {
+        return 0;
+    } else {
+        $array_count = count($first);
+        for ($i = 0; $i < $array_count; $i++) {
+            echo "<div class='" . $first[$i] . "'>";
+            echo $second[$i];
+            echo "</div>";
+        }
+    }
+}
+
+
 ?>
