@@ -1,11 +1,30 @@
 .div {
     width: 400px;
     height: 400px;
-    background-color: lightsalmon;
-    margin: 20px;;
+    background-color:rgb(255, 255, 255);
+    margin: 20px;
+    border: solid 2px black;
 }
 
 .blu{
     background-color: aliceblue;
+
+}
+
+
+.rosso{
+    background-color: rosybrown;
+
+}
+
+.verde {
+    background-color: lightgreen;
+}
+
+
+#testo{
     
+    height: 20px;
+    width: 200px;
+   
 }
