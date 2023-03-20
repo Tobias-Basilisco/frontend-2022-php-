@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .div {
     width: 40px;
     height: 40px;
@@ -27,4 +32,62 @@
     height: 20px;
     width: 200px;
    
+}
+
+
+.importante{
+    width: 500px;
+    height: 40px;
+    margin: 20px;
+    border: solid 2px black;
+   
+
+}
+
+.importante p {
+    padding: 10px;
+    color: white;
+}
+
+.importante-blue{
+    background-color: blue;
+}
+
+#flex {
+
+display: flex;
+width: 90%;
+margin: 0 auto;
+}
+
+.align {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(79, 79, 218);
+    border: solid 2px black ;
+    padding: 20px;
+   
+}
+
+
+.container{
+    width: 100%;
+
+}
+.content {
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.alignRight {
+    text-align: right;
 }
