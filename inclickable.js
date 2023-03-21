@@ -11,6 +11,7 @@ function manager(){
       document.getElementById("contsq4").addEventListener("mouseover", from4);
 
 
+      
     function from1(){
         let claass = caatch.classList;
         if ([...caatch.classList].includes("sq1")){
