@@ -12,20 +12,35 @@ function manager(){
 
 
     function from1(){
-        add_class("sq2");
+        let claass = caatch.classList;
+        if ([...caatch.classList].includes("sq1")){
+            add_class("sq2");
+        
+        }
+       
+    
 
     }
 
     function from2(){
-        add_class("sq3");
+        if ([...caatch.classList].includes("sq2")){
+            add_class("sq3");
+        
+        }
     }
 
     function from3(){
-        add_class("sq4");
+        if ([...caatch.classList].includes("sq3")){
+            add_class("sq4");
+        
+        }
     }
 
     function from4(){
-        add_class("sq1");
+        if ([...caatch.classList].includes("sq4")){
+            add_class("sq1");
+        
+        }
     }
 
 
